@@ -95,19 +95,19 @@ const projects = [
   },
   {
     id: 6,
-    title: "웹 애플리케이션",
-    category: "개발 / 웹앱",
-    client: "Web Application",
+    title: "goodoc 브랜드 웹사이트",
+    category: "개발 / 반응형웹",
+    client: "굿닥",
     image:
-      "https://images.unsplash.com/photo-1669062897193-f8a4215c2033?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc2MzYxMTI4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://d32gkk464bsqbe.cloudfront.net/PlNQ94d-EGjOYZ0z-Jd5LzU_XfM=/800x0/photos/o/f530b1d6f552023a6277e3eee251c7c9b4e01c89.png",
     description:
-      "복잡한 비즈니스 로직을 구현한 엔터프라이즈 웹 애플리케이션",
+      "굿닥의 전반적인 서비스소개 및 브랜드 소개를 위한 웹페이지 제작",
     year: "2023",
-    services: ["시스템 설계", "풀스택 개발", "클라우드 인프라"],
+    services: ["시스템개발", "FRONT", "REACT"],
     details:
-      "기업의 내부 업무 프로세스를 디지털화한 웹 애플리케이션 프로젝트입니다. 복잡한 워크플로우를 효율적으로 관리할 수 있는 시스템을 구축했습니다.",
-    challenges: "레거시 시스템과의 연동 및 대용량 데이터 처리",
-    results: "업무 효율성 60% 향상, 처리 시간 70% 단축",
+      "굿닥의 서비스를 소개하고 서비스의 강점 및 영상을 통해 전체적인 서비스를 한눈에 확인 가능하도록 구성",
+    challenges: "전체적인 서비스의 내용을 함축하여 브랜드 사이트 하나에서 확인",
+    results: "goodoc.io",
   },
 ];
 
