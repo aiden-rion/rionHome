@@ -25,7 +25,7 @@ export function Hero() {
           className="w-full h-full object-cover opacity-50"
         >
           <source
-            src="https://cdn.pixabay.com/video/2016/11/04/6266-190550868_large.mp4"
+            src="/src/resource/hero_background.mp4"
             type="video/mp4"
           />
         </video>
@@ -119,24 +119,24 @@ export function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.2 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2"
-      >
-        <div className="flex flex-col items-center gap-2">
-          <span
-            className="text-white/50 text-sm tracking-wider"
-            style={{ fontFamily: "Montserrat, sans-serif" }}
-          >
-            SCROLL
-          </span>
-          <div className="w-6 h-10 border-2 border-white/30 rounded-full flex items-start justify-center p-2 animate-bounce">
-            <div className="w-1.5 h-3 bg-white/50 rounded-full"></div>
-          </div>
-        </div>
-      </motion.div>
+      {/*<motion.div*/}
+      {/*  initial={{ opacity: 0 }}*/}
+      {/*  animate={{ opacity: 1 }}*/}
+      {/*  transition={{ duration: 1, delay: 1.2 }}*/}
+      {/*  className="absolute bottom-10 left-1/2 -translate-x-1/2"*/}
+      {/*>*/}
+      {/*  <div className="flex flex-col items-center gap-2">*/}
+      {/*    <span*/}
+      {/*      className="text-white/50 text-sm tracking-wider"*/}
+      {/*      style={{ fontFamily: "Montserrat, sans-serif" }}*/}
+      {/*    >*/}
+      {/*      SCROLL*/}
+      {/*    </span>*/}
+      {/*    <div className="w-6 h-10 border-2 border-white/30 rounded-full flex items-start justify-center p-2 animate-bounce">*/}
+      {/*      <div className="w-1.5 h-3 bg-white/50 rounded-full"></div>*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</motion.div>*/}
     </section>
   );
 }

@@ -183,8 +183,8 @@ export function About() {
           })}
         </motion.div>
 
-        {/* Philosophy Section */}
-        <motion.div
+        
+         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -211,6 +211,7 @@ export function About() {
           </div>
           <div className="absolute right-0 top-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2"></div>
         </motion.div>
+
 
         {/* Team Section */}
         {/* 팀소개 관련내용은 잠시 주석처리 */}

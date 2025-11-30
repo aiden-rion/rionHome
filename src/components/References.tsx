@@ -10,7 +10,7 @@ const projects = [
     category: "기획 / 개발",
     client: "롯데렌터카",
     image:
-      "https://mycarsave.lotterentacar.net/images/common/logo.png",
+      "/src/resource/ref_01.png",
     description:
       "롯데렌터카 마이카세이브 웹사이트 및 중고렌트 시스템 구축",
     year: "2024",
@@ -28,7 +28,7 @@ const projects = [
     category: "기획 / 개발 / 디자인",
     client: "Kt Alpha",
     image:
-      "https://pimg.mk.co.kr/news/cms/202511/21/news-p.v1.20251121.e8f649a2d7e34d8f9b74c610dc9af08f_P1.jpg",
+      "/src/resource/ref_02.jpg",
     description: "케이티 알파의 이벤트 추첨 서비스 신규구축",
     year: "2025",
     services: ["UI/UX 디자인", "프론트엔드", "백엔드"],
@@ -44,7 +44,7 @@ const projects = [
     category: "기획 / 개발 / 디자인 / SAP",
     client: "Corporate",
     image:
-      "https://daily.hankooki.com/news/photo/202505/1214434_1418515_3343.jpg",
+      "/src/resource/ref_03.jpg",
     description:
       "롯데렌터카의 신규 중고차 서비스에 대한 기획 및 개발",
     year: "2025",
@@ -61,7 +61,7 @@ const projects = [
     category: "기획 / 개발",
     client: "도이치모터스",
     image:
-      "https://m.suwonautoworld.co.kr/assets/admin/images/logo/93/og_logo.jpg",
+      "/src/resource/ref_04.jpg",
     description:
       "매매상사 단지관제 시스템 및 차량 입출차, 성능, 사진 관리 시스템",
     year: "2022",
@@ -78,7 +78,7 @@ const projects = [
     category: "기획 / 디자인 / 개발",
     client: "Tech Startup",
     image:
-      "https://dtd31o1ybbmk8.cloudfront.net/photos/bc17d2bab252bb53440fecf76079a1b5/thumb.png",
+      "/src/resource/ref_05.png",
     description:
       "SK렌터카의 차세대 빌링시스템 및 채널서비스 개발",
     year: "2023",
@@ -99,7 +99,7 @@ const projects = [
     category: "개발 / 반응형웹",
     client: "굿닥",
     image:
-      "https://d32gkk464bsqbe.cloudfront.net/PlNQ94d-EGjOYZ0z-Jd5LzU_XfM=/800x0/photos/o/f530b1d6f552023a6277e3eee251c7c9b4e01c89.png",
+      "/src/resource/ref_06.png",
     description:
       "굿닥의 전반적인 서비스소개 및 브랜드 소개를 위한 웹페이지 제작",
     year: "2023",
